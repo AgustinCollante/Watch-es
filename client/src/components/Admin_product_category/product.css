@@ -1,0 +1,104 @@
+.crud_content{
+    display: flex;
+    align-items: center;
+    height: 90%;
+
+}
+.crud_product{
+    display: flex;
+    justify-content: center;
+    border-radius: 2%;
+    background-color: black;
+    color: #FFA62B;
+    width: 400px;
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 90%;
+}
+
+.input{
+    width: 300px;
+}
+
+.divbutton{
+    display: flex;
+}
+
+.buttonAdd{
+    margin-top:20px;
+    width: 100px;
+    color:black;
+    background-color: gray;
+    border: 0px;
+    margin-left: auto;
+    margin-right: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+ }
+ .buttonAdd:hover{
+    background-color: rgb(4, 161, 4);
+ }
+ .buttonUpdate{
+    margin-top:20px;
+    width: 100px;
+    color:black;
+    background-color: gray;
+    border: 0px;
+    margin-left: auto;
+    margin-right: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+ }
+
+ .buttonUpdate:hover{
+    background-color: rgb(255, 174, 0);
+ }
+ .buttonDelete{
+    margin-top:20px;
+    width: 100px;
+    color:black;
+    background-color: gray;
+    border: 0px;
+    margin-left: auto;
+    margin-right: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+ }
+
+ .buttonDelete:hover{
+    background-color: red;
+ }
+
+.h111{
+    padding-top:10px;
+    color:#FFA62B;
+    text-align: center;
+}
+.productsAdmin {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    color: #FFA62B;
+    background-color: black;
+    width: 250px;
+    height: 90%;
+    margin: 0px 20px;
+}
+
+.card{
+    height: 90%;
+}
+.divLinks{
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    margin-left:10%
+}
+
+.cardAdminProduct{
+    width: 400px
+}
+
+.form-control{
+ height:30px !important
+}

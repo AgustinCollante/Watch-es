@@ -1,0 +1,73 @@
+.ordeness{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 5%;
+    padding: 0;
+    width: 70%;
+    height: 100%;
+    align-items: center;
+}
+.card-tab1{
+    height: 85%;
+    width: 50%;
+    overflow: auto;
+}
+
+.card-tab2{
+    height: 85%;
+    width: 40%;
+}
+.orden-header{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.userEmail{
+    font-size: medium;
+}
+.card-bodyOrden{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 70%; 
+    padding: 10px;
+    align-content: center;
+}
+.tcont{
+    overflow:visible;
+    margin-bottom: 10px;
+}
+.columns{
+    display: flex;
+}
+
+/* .th1{
+    display: flex;
+    margin : 0 15px 0 0;
+    width: 40px;
+}
+.td1{
+    display: flex;
+    margin : 0 15px 0 0;
+    width: 40px;
+    
+} */
+
+.fecha{
+    padding-left: 10px;
+}
+
+.cardinfoadmin{
+    margin-left:380px;
+    margin-top: -565px;
+}
+
+
+
+.card-subtitle{
+    width: 330px
+} 
+

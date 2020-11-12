@@ -1,0 +1,102 @@
+.contentCategory{
+    display: flex;
+    margin:auto;
+    width: 70%;
+    height: 80%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.divcategories{
+    display: flex;
+    flex-direction: column;
+    color: #FFA62B;
+    width: 220px;
+    padding-top: 5px;
+    height: 90%;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.divcategoriesbuttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Form{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    padding-top: 5px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: 2px solid #FFA62B;
+    color: #FFA62B;
+    height: 45%;
+    margin-top:62px
+}
+
+input{
+    border: 0px;
+    margin-bottom: 10px;
+}
+
+.textArea{
+    resize: none;
+}
+
+.buton1{
+    padding: 0 5px 0 5px;
+}
+
+.buttonAddCat{
+    margin-top:20px;
+    width: 100px;
+    color:black;
+    background-color: slategray;
+    margin-right: 10px;
+    margin-left: auto;
+    border: 0px;
+    border-radius: 5%;
+    margin-bottom: 10px;
+ }
+ 
+ .buttonAddCat:hover {
+    background-color:  rgb(4, 161, 4);
+  }
+
+
+
+  .buttonEditCat{
+    margin-top:20px;
+    width: 100px;
+    color:black;
+    background-color: slategray;
+    margin-right: 10px;
+    margin-left: auto;
+    border: 0px;
+    border-radius: 5%;
+    margin-bottom: 10px;
+ }
+ 
+ .buttonEditCat:hover {
+    background-color: rgb(255, 174, 0);
+  }
+
+.buttonDeleteCat{
+    margin-top:20px;
+    width: 100px;
+    color:black;
+    background-color: slategray;
+    margin-right: 10px;
+    margin-left: auto;
+    border: 0px;
+    border-radius: 5%;
+    margin-bottom: 10px;
+ }
+ .buttonDeleteCat:hover {
+    background-color: red;
+  }

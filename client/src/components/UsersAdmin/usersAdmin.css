@@ -1,0 +1,41 @@
+
+.users-content{
+    display: flex;
+    height: 90%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.recuadro{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 5px;
+    height: 85%;
+    width: 300px;
+    margin: 0 50px 0 50px;
+    
+}
+
+.tituloTabla{
+    color:#FFA62B;
+    text-align: center;
+    padding-top: 5px;
+}
+
+/* .subtituloTabla{
+    color:#FFA62B;
+    text-decoration-line: underline;
+    margin-left: 2px;
+} */
+
+.card3{
+    height: 85%;
+    width: 40%;
+}
+
+.imguserAdmin{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%
+}
